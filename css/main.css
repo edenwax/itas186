@@ -1,0 +1,258 @@
+body, html {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	background: #123d5a;
+	color: #4b89b2;
+}
+a {
+	color: #eda607;
+}
+nav {
+	background: #113953; /* ehehehe */
+}
+	nav .nav-wrap {
+		max-width: 1140px;
+		margin: 0 auto;
+		display: flex;
+	}
+	nav .main-nav {
+		width: 50%;
+	}
+	nav .user-nav {
+		width: 50%;
+		text-align: right;
+	}
+nav a {
+	padding: 20px 0 5px 0;
+	margin: 0 20px;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	display: inline-block;
+	border-bottom: 2px solid rgba(255,255,255,0);
+}
+	nav a:hover {
+		border-bottom: 2px solid rgba(255,255,255,1);
+	}
+	nav a:first-child {
+		margin-left: 0;
+	}
+	nav a:last-child {
+		margin-right: 0;
+	}
+.header {
+	background: #113953;
+}
+.error {
+	color: #eda607;
+}
+.head {
+	padding: 2em 0;
+	max-width: 1140px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.head h1 {
+	font-size: 2em;
+	color: #fff;
+}
+	.head span {
+		font-weight: normal;
+	}
+	.line {
+		height: 5px;
+		width: 70px;
+		background: #fff;
+		margin: 1em 0 2em 0;
+	}
+	.logo {
+		float: left;
+	}
+	.add-boat-nav {
+		float: right;
+		padding: 2em 0;
+	}
+		.add-boat-nav a {
+			background: #eda607;
+			padding: 10px 20px;
+			color: #113953;
+			font-weight: bold;
+			text-decoration: none;
+			border-radius: 3px;
+			transition: all .2s ease-in-out;
+		}
+			.add-boat-nav a:hover {
+				background: #fff;
+			}
+.main {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+	.main h2 {
+		color: #fefefe;
+		margin: 2em 0 0 0;
+	}
+	.save-error {
+		color: #fff;
+		font-weight: bold;
+	}
+	span.mini-date {
+		font-size: 0.6em !important;
+		font-weight: normal !important;
+	}
+.docked-table {
+	width: 100%;
+}
+	.docked-row {
+		display: flex;
+		width: 100%;
+		padding: 1em 0;
+		border-bottom: 1px solid #031623;
+		font-weight: bold;
+	}
+		.docked-row:last-child {
+			border-bottom: 0;
+		}
+		.docked-title {
+			width: 50%;
+			padding: 11px 0 0 1em;
+		}
+		.docked-name {
+			font-size: 1.8em;
+			color: #eda607;
+		}
+		.docked-reg {
+			font-weight: normal;
+			font-size: 0.8em;
+			color: #4b89b2;
+		}
+			.docked-reg span {
+				color: #fff;
+			}
+		.docked-length {
+			width: 15%;
+			text-align: center;
+			padding: 20px 0 0 0;
+		}
+			.docked-length span {
+				color: #fff;
+				font-weight: normal;
+			}
+		.docked-owner {
+			width: 25%;
+			text-align: right;
+			padding: 20px 0 0 0;
+		}
+			.docked-owner span {
+				color: #fff;
+				font-weight: normal;
+			}
+		.docked-img {
+			width: 75px;
+		}
+			.docked-img img {
+				height: 75px;
+				width: 75px;
+			}
+		.docked-control {
+			width: 10%;
+			text-align: right;
+			line-height: 75px;
+		}
+			.docked-control a {
+				color: #fff;
+				font-size: 1.8em;
+				margin: 0 0 0 20px;
+			}
+form {
+	width: 1140px;
+	margin: 2em 0;
+}
+	.form-cont {
+		display: flex;
+		justify-content: space-between;
+	}
+	.form-wrap {
+		display: flex;
+		width: 45%;
+	}
+		.form-wrap .labels {
+			width: 35%;
+		}
+		.form-wrap .inputs {
+			width: 65%;
+		}
+			.checkbox input {
+			
+			}
+				.checkbox div {
+					display: inline-block;
+					padding: 0 10px 0 0;
+				}
+					
+
+		
+
+	.form-wrap ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+		.form-wrap li {
+			height: 70px;
+		}
+		form img {
+			max-width: 300px;
+			margin: 0 0 2em 0;
+		}
+
+form h4 {
+	margin: 0;
+	padding: 0;
+	color: #ffb103;
+	font-size: 1.6em;
+}
+	form label {
+		color: #fff;
+		font-weight: bold;
+	}
+	form input {
+		border: 0;
+		outline: 0;
+		padding: 10px;
+		color: #fff;
+		background: none;
+		border: 1px solid #fff;
+		border-radius: 3px;
+		width: 100%;
+		transition: all .2s ease-in-out;
+	}
+		form input:focus, form input:hover {
+			border: 1px solid #ffb103;
+		}
+			form input[type='submit'] {
+				background: #fff;
+				font-weight: bold;
+				font-family: "Arial", sans-serif;
+				font-size: 1em;
+				color: #113953;
+				cursor: pointer;
+				width: 200px;
+			}
+				form input[type='submit']:hover {
+					background: #ffb103;
+				}
+	.del-button {
+		background: #c95a4b;
+		color: #fff;
+		padding: 10px 20px;
+		border-radius: 3px;
+		border: 0;
+		outline: 0;
+		font-size: 1em;
+		font-family: Arial, sans-serif;
+		text-decoration: none;
+		font-weight: bold;
+		cursor: pointer;
+	}
